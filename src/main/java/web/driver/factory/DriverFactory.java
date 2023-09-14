@@ -1,7 +1,7 @@
 package web.driver.factory;
 
 import web.driver.IWebDriver;
-import web.driver.factory.local.RemoteWebDriverImpl;
+import web.driver.imp.RemoteWebDriverImpl;
 import web.driver.imp.LocalWebDriverImpl;
 import web.enums.RunModeType;
 
