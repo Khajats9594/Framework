@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10eb6e0-61bd-4883-a2f2-d103fb10684d" name="Changes" comment="" />
+    <list default="true" id="e10eb6e0-61bd-4883-a2f2-d103fb10684d" name="Changes" comment="add other supporting files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,6 +185,118 @@
       <option name="presentableId" value="Default" />
       <updated>1694583774584</updated>
     </task>
+    <task id="LOCAL-00001" summary="add pom file with all necessary dependency">
+      <option name="closed" value="true" />
+      <created>1694676493956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694676493956</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add gitignore file">
+      <option name="closed" value="true" />
+      <created>1694676547900</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694676547900</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add converter class for config">
+      <option name="closed" value="true" />
+      <created>1694676611031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694676611031</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add config java class along with property files">
+      <option name="closed" value="true" />
+      <created>1694676679919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694676679919</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add configFactory class">
+      <option name="closed" value="true" />
+      <created>1694676718670</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694676718670</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add entity and manager class for driver">
+      <option name="closed" value="true" />
+      <created>1694676759160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694676759160</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add factory and implement class for driver">
+      <option name="closed" value="true" />
+      <created>1694676799943</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694676799943</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add Driver driverManager and IWebDriver class">
+      <option name="closed" value="true" />
+      <created>1694676844011</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694676844011</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add enums class which used for driver initiation">
+      <option name="closed" value="true" />
+      <created>1694676916180</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694676916180</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add alternative way to read the properties in property file">
+      <option name="closed" value="true" />
+      <created>1694677000568</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694677000568</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add testng.xml file and Sample test class to test implementation">
+      <option name="closed" value="true" />
+      <created>1694677042820</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694677042820</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add other supporting files">
+      <option name="closed" value="true" />
+      <created>1694677061605</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694677061605</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add pom file with all necessary dependency" />
+    <MESSAGE value="add gitignore file" />
+    <MESSAGE value="add converter class for config" />
+    <MESSAGE value="add config java class along with property files" />
+    <MESSAGE value="add configFactory class" />
+    <MESSAGE value="add entity and manager class for driver" />
+    <MESSAGE value="add factory and implement class for driver" />
+    <MESSAGE value="add Driver driverManager and IWebDriver class" />
+    <MESSAGE value="add enums class which used for driver initiation" />
+    <MESSAGE value="add alternative way to read the properties in property file" />
+    <MESSAGE value="add testng.xml file and Sample test class to test implementation" />
+    <MESSAGE value="add other supporting files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add other supporting files" />
   </component>
 </project>
