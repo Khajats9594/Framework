@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="LogToConsole" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <!-- Configure your application's logger -->
+        <Logger name="com.selenideFramework" level="INFO" additivity="false">
+            <AppenderRef ref="LogToConsole"/>
+        </Logger>
+        <!-- Suppress DEBUG-level logs for Log4j 2 internals -->
+        <Logger name="org.apache.logging.log4j" level="ERROR"/>
+        <Root level="ERROR">
+            <AppenderRef ref="LogToConsole"/>
+        </Root>
+    </Loggers>
+</Configuration>
