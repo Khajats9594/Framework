@@ -16,6 +16,8 @@
     <lombok.version>1.18.24</lombok.version>
     <testng.version>7.8.0</testng.version>
     <selenium.version>4.12.1</selenium.version>
+    <log4j-api.version>2.20.0</log4j-api.version>
+    <log4j-core.version>2.20.0</log4j-core.version>
   </properties>
 
   <dependencies>
@@ -40,6 +42,23 @@
       <groupId>org.aeonbits.owner</groupId>
       <artifactId>owner</artifactId>
       <version>${owner.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.32</version> <!-- Use the latest version -->
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>${log4j-api.version}</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>${log4j-core.version}</version>
     </dependency>
   </dependencies>
   <build>
