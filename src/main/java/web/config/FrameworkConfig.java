@@ -15,9 +15,9 @@ import java.net.URL;
 @Config.Sources({
         "system:properties",
         "system:env",
-        "file:${user.dir}/src/test/resources/config.properties",
-        "file:${user.dir}/src/test/resources/staging-config.properties",
-        "file:${user.dir}/src/test/resources/dev-config.properties"
+        "file:${user.dir}/src/test/resources/config-files/config.properties",
+        "file:${user.dir}/src/test/resources/config-files/staging-config.properties",
+        "file:${user.dir}/src/test/resources/config-files/dev-config.properties"
 })
 public interface FrameworkConfig extends Config {
 

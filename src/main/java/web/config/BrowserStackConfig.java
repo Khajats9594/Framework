@@ -7,7 +7,7 @@ import java.net.URL;
 
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
-        "file:${user.dir}/src/test/resources/browser-stack.properties"
+        "file:${user.dir}/src/test/resources/config-files/browser-stack.properties"
 })
 public interface BrowserStackConfig extends Config {
 

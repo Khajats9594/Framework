@@ -17,7 +17,7 @@ public final class PropertyUtils {
     private static final Properties property = new Properties();
 
     static {
-        try(FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/config.properties")){
+        try(FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/config-files/config.properties")){
             property.load(fis);
             for (Map.Entry<Object, Object> entry : property.entrySet()) {
                 CONFIGMAP.put(String.valueOf(entry.getKey()), String.valueOf(entry.getValue()).trim()); //remove the trailing and leading spaces
