@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10eb6e0-61bd-4883-a2f2-d103fb10684d" name="Changes" comment="add the logs directory in to gitignore file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/test/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/test/Sample.java" afterDir="false" />
-    </list>
+    <list default="true" id="e10eb6e0-61bd-4883-a2f2-d103fb10684d" name="Changes" comment="refactoring the code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -376,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694753435908</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="refactoring the code">
+      <option name="closed" value="true" />
+      <created>1695378444694</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695378444694</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -393,13 +397,13 @@
     <MESSAGE value="add testng.xml file and Sample test class to test implementation" />
     <MESSAGE value="add other supporting files" />
     <MESSAGE value="add workspace.xml" />
-    <MESSAGE value="refactoring the code" />
     <MESSAGE value="modified the config.properties" />
     <MESSAGE value="add log4j2 dependency" />
     <MESSAGE value="refactor the config-files" />
     <MESSAGE value="modified the log4j2.xml file" />
     <MESSAGE value="testing the log4j2 configuration" />
     <MESSAGE value="add the logs directory in to gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the logs directory in to gitignore file" />
+    <MESSAGE value="refactoring the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring the code" />
   </component>
 </project>
