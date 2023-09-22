@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e10eb6e0-61bd-4883-a2f2-d103fb10684d" name="Changes" comment="modified the config.properties">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j2.xml" afterDir="false" />
+    <list default="true" id="e10eb6e0-61bd-4883-a2f2-d103fb10684d" name="Changes" comment="add the logs directory in to gitignore file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/BrowserStackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/BrowserStackConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/FrameworkConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/utils/PropertyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/utils/PropertyUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/test/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/test/Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/browser-stack.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config-files/browser-stack.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config-files/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/dev-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config-files/dev-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/staging-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config-files/staging-config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources/config-files" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Sample.test">
+  <component name="RunManager" selected="TestNG.Sample.test (1)">
     <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
         <env name="environment" value="staging" />
@@ -73,21 +65,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.test" />
-      <option name="MAIN_CLASS_NAME" value="org.example.test.Sample" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,7 +142,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sample.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Sample.test (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Framework" />
       <extension name="coverage">
         <pattern>
@@ -183,13 +160,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sample.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Framework" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="org.example.test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.test.Sample" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="java -javaagent:$PROJECT_DIR$/../elastic-apm-agent-1.42.0.jar" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Sample.test (1)" />
         <item itemvalue="TestNG.Sample.test" />
         <item itemvalue="TestNG.Sample" />
         <item itemvalue="TestNG.Sample.-Denvironment=dev test" />
         <item itemvalue="Application.Sample" />
-        <item itemvalue="JUnit.Sample" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +328,55 @@
       <option name="project" value="LOCAL" />
       <updated>1694685071370</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="modified the config.properties">
+      <option name="closed" value="true" />
+      <created>1694753231266</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1694753231266</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add log4j2 dependency">
+      <option name="closed" value="true" />
+      <created>1694753266345</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694753266345</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor the config-files">
+      <option name="closed" value="true" />
+      <created>1694753308825</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1694753308825</updated>
+    </task>
+    <task id="LOCAL-00019" summary="modified the log4j2.xml file">
+      <option name="closed" value="true" />
+      <created>1694753339627</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1694753339627</updated>
+    </task>
+    <task id="LOCAL-00020" summary="testing the log4j2 configuration">
+      <option name="closed" value="true" />
+      <created>1694753371067</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1694753371067</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add the logs directory in to gitignore file">
+      <option name="closed" value="true" />
+      <created>1694753435908</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1694753435908</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -341,6 +395,11 @@
     <MESSAGE value="add workspace.xml" />
     <MESSAGE value="refactoring the code" />
     <MESSAGE value="modified the config.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified the config.properties" />
+    <MESSAGE value="add log4j2 dependency" />
+    <MESSAGE value="refactor the config-files" />
+    <MESSAGE value="modified the log4j2.xml file" />
+    <MESSAGE value="testing the log4j2 configuration" />
+    <MESSAGE value="add the logs directory in to gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add the logs directory in to gitignore file" />
   </component>
 </project>

@@ -85,6 +85,7 @@
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
+          <argLine>-javaagent:/Users/testvagrant/Downloads/elastic-apm-agent-1.42.0.jar -Delastic.apm.config_file=src/test/resources/elasticapm.properties</argLine>
         </configuration>
       </plugin>
     </plugins>
